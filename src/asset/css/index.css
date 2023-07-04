@@ -1,0 +1,137 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.nav{
+  background-color: #150185;
+}
+
+.nav ul{
+  display: flex;
+  padding: 30px;
+  justify-content: center;
+ 
+}
+.nav ul li a{
+  text-decoration: none;
+  color:#fff;
+}
+.nav ul li{
+  list-style-type: none;
+  padding: 0 40px;
+  justify-content: center;
+  font-size: 20px;
+  font-weight: bold;
+ 
+}
+.nav ul li a:hover{
+  color:#db8924;
+  border-bottom: 1px solid #db8924;
+}
+.container{
+  background-color: #fff;
+  color: #150185;
+}
+.home{
+  text-align: center;
+  padding: 200px 0;  
+  line-height: 51px;
+}
+.home p{
+  font-size: 30px;
+  padding: 8px 0;
+}
+.home h2{
+  font-size: 30px;
+  padding: 10px 0;
+}
+.home .btn{
+  background-color: #fff;
+  color: #150185;
+  padding: 14px 18px;
+  border: 1px solid #150185;
+}
+.home .btn:hover{
+  background-color: #150185;
+  color: #fff;
+  font-weight: bold;
+}
+.blog{
+  display: flex;
+  background-color: #fff;
+  color: #150185;
+  font-size: 20px;
+  padding: 100px 0;
+}
+.blog1{
+  margin: 0 60px;
+  padding: 23px 23px;
+  border: 1px solid #150185;
+}
+.contact{
+  background-color: #fff;
+  color: #150185;
+  text-align: center;
+  padding: 120px 0;
+}
+.contact input{
+  max-width: 50%;
+  padding: 10px 8px;
+  margin: 8px 0;
+}
+.contact .btn{
+  background-color: #150185;
+  color: #fff;
+  padding:15px;
+  border: 1px solid #fff;
+  font-size: 18px;
+  margin: 20px 0;
+}
+.contact .btn:hover{
+  background-color: #fff;
+  color: #150185;
+}
+.card{
+   padding: 100px 0;
+    display: flex;
+    background-color: #fff;
+    color: #150185;
+    
+    justify-content: space-around;
+}
+.card1{
+  border: 1px solid #150185;
+  padding: 30px;
+  text-align: center;
+  line-height: 40px;
+}
+.card1 button{
+  background-color: #fff;
+  color: #150185;
+  padding: 10px;
+  border: 1px solid #150185;
+}
+.card1 button:hover{
+  background-color: #150185;
+  color: #fff;
+  
+}
+.card img{
+  max-width: 223px;
+}
+button.togglebutton {
+  display: none;
+}
+
+@media(max-width:767px){
+  button.togglebutton {
+    display: block;
+}
+
+.navigation-menu.expanded {
+    display: none;
+}
+
+}
+
