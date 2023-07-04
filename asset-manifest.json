@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/livewebsite/static/css/main.7d110f13.css",
+    "main.js": "/livewebsite/static/js/main.c3a158b4.js",
+    "static/media/House-emperitas-optimized.jpg": "/livewebsite/static/media/House-emperitas-optimized.b29859e0ea742c8513b9.jpg",
+    "static/media/overstock-case-study-emperitas.jpg": "/livewebsite/static/media/overstock-case-study-emperitas.8bb5420661d3dd0e70a0.jpg",
+    "static/media/propay-case-study-emperitas.jpg": "/livewebsite/static/media/propay-case-study-emperitas.501003e615b5c419bb9a.jpg",
+    "index.html": "/livewebsite/index.html",
+    "main.7d110f13.css.map": "/livewebsite/static/css/main.7d110f13.css.map",
+    "main.c3a158b4.js.map": "/livewebsite/static/js/main.c3a158b4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7d110f13.css",
+    "static/js/main.c3a158b4.js"
+  ]
+}
